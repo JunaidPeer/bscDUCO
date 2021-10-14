@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -19,10 +18,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-divider@1.0.0/dist/bulma-divider.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-divider@1.0.0/dist/bulma-divider.min.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-pageloader@0.3.0/dist/css/bulma-pageloader.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-badge@1.0.1/dist/bulma-badge.css">
-    
+
 </head>
 
 <body>
@@ -36,121 +37,127 @@
             <a class="navbar-item">
                 <img src="./ducowhite.png" style="max-height: 2rem;">
                 &nbsp;<span id="tokenInInput">bscDUCO</span></a>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarDuinoCoin">
-                    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-                </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarDuinoCoin">
+                <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+            </a>
         </div>
 
-          <div id="navbarDuinoCoin" class="navbar-menu">
+        <div id="navbarDuinoCoin" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item" href="./home.html">
                     <i class="fas fa-th-large" style="color:#f6b93b;"></i>&nbsp;Home
                 </a>
-                <a class="navbar-item is-active" href="https://wallet.duinocoin.com/" target="_blank">
+                <a class="navbar-item" href="https://wallet.duinocoin.com/" target="_blank">
                     <i class="fa fa-wallet" style="color:#ff9f43;"></i>&nbsp;Duino-Wallet
                 </a>
-                <a class="navbar-item" href="wrap.html">
+                <a class="navbar-item is-active" href="wrap.html">
                     <i class="fas fa-sign-in-alt" style="color:#ee5253;"></i>&nbsp;Duco-Wrapper
                 </a>
                 <a class="navbar-item" href="index.html">
                     <i class="fas fa-undo-alt" style="color:#eb2f06;"></i>&nbsp;Duco-Unwrapper
-                    </a>
-                <a class="navbar-item" href="https://v3.polarisdefi.io/stake-pool/0xb76e7015198902D97E77804ac742Cc75d3a661BA" target="_blank">
+                </a>
+                <a class="navbar-item"
+                    href="https://v3.polarisdefi.io/stake-pool/0xb76e7015198902D97E77804ac742Cc75d3a661BA"
+                    target="_blank">
                     <i class="fab fa-bandcamp" style="color:#B53471;"></i>&nbsp;Farm
-                    </a>
-                
-                    <a class="navbar-item" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xcf572ca0ab84d8ce1652b175e930292e2320785b" target="_blank">
-                        <i class="fab fa-opencart" style="color:#ED4C67;"></i>&nbsp;PancakeSwap
-                        </a>
+                </a>
+
+                <a class="navbar-item"
+                    href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xcf572ca0ab84d8ce1652b175e930292e2320785b"
+                    target="_blank">
+                    <i class="fab fa-opencart" style="color:#ED4C67;"></i>&nbsp;PancakeSwap
+                </a>
             </div>
-          
-        <div class="navbar-end">
 
-            <a class="navbar-item">
-                <button onclick="addtomask()" class="button is-success is-link is-active is-outlined is-rounded is-fullwidth">
-                <i class="fas fa-plus-square"></i>
-                &nbsp;Add to Metamask
-                </button>
-                 </a></li>
-                 
-        <a class="navbar-item" href="https://bscscan.com/token/0xcf572ca0ab84d8ce1652b175e930292e2320785b" target="_blank">
-                <i class='bx bx-intersect' style="color: #fff;"></i>&nbsp;BscScan
-                </a></li>
+            <div class="navbar-end">
 
-             <a class="navbar-item" href="https://polygonscan.com/token/0xaf965beb8c830ae5dc8280d1c7215b8f0acc0cea" target="_blank">
-                <i class="fas fa-link" style="color: #fff;"></i>&nbsp;Polygonscan
-                    </a></li>
+                <a class="navbar-item">
+                    <button onclick="addtomask()"
+                        class="button is-success is-link is-active is-outlined is-rounded is-fullwidth">
+                        <i class="fas fa-plus-square"></i>
+                        &nbsp;Add to Metamask
+                    </button>
+                </a>
+
+                <a class="navbar-item" href="https://bscscan.com/token/0xcf572ca0ab84d8ce1652b175e930292e2320785b"
+                    target="_blank">
+                    <i class="bx bx-intersect"></i>&nbsp;BscScan
+                </a>
+
+                <a class="navbar-item" href="https://polygonscan.com/token/0xaf965beb8c830ae5dc8280d1c7215b8f0acc0cea"
+                    target="_blank">
+                    <i class="fas fa-link"></i>&nbsp;Polygonscan
+                </a>
+            </div>
         </div>
-            </div>
-        </nav
+    </nav <div class="container">
+    <section class="hero is-fullheight" id="login">
+        <div class="hero-body is-align-self-center">
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <section style="max-width: 20rem;">
+                            <p class="title">
 
-
-
-    <div class="container">
-        <section class="hero is-fullheight" id="login">
-            <div class="hero-body is-align-self-center">
-                <div class="columns">
-                    <div class="column">
-                        <div class="box">
-                            <section style="max-width: 20rem;">
-                                <p class="title">
-                                    
-                                </p>
-                                <p class="title">
-                                    Sign in
-                                </p>
-                                <p class="subtitle">
-                                    to your Duino-Coin Wallet
-                                </p>
-                                  <div class="field mt-5">
-                                    <div class="control has-icons-left">
-                                        <input type="text" id="usernameinput" placeholder="Wallet (username)" class="input" required>
-                                        <span class="icon is-small is-left">
-                                            <i class="fa fa-user"></i>
+                            </p>
+                            <p class="title">
+                                Sign in
+                            </p>
+                            <p class="subtitle">
+                                to your Duino-Coin Wallet
+                            </p>
+                            <div class="field mt-5">
+                                <div class="control has-icons-left">
+                                    <input type="text" id="usernameinput" placeholder="Wallet (username)" class="input"
+                                        required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input type="password" id="passwordinput" placeholder="Password" class="input"
+                                        required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field mt-5">
+                                <div class="buttons">
+                                    <button class="button is-duco is-warning is-fullwidth" id="loginbutton">
+                                        <span id="logincheck">
+                                            <i class="fa fa-fw fa-check" id="logincheck"></i>
                                         </span>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <div class="control has-icons-left">
-                                        <input type="password" id="passwordinput" placeholder="Password" class="input" required>
-                                        <span class="icon is-small is-left">
-                                            <i class="fa fa-lock"></i>
+                                        <span id="loginload" style="display:none">
+                                            <i class="fas fa-circle-notch fa-spin"></i>
                                         </span>
-                                    </div>
+                                        &nbsp;
+                                        <span id="logintext">
+                                            Login
+                                        </span>
+                                    </button>
+
                                 </div>
-                                <div class="field mt-5">
-                                    <div class="buttons">
-                                        <button class="button is-duco is-warning is-fullwidth" id="loginbutton">
-                                            <span id="logincheck">
-                                                <i class="fa fa-fw fa-check" id="logincheck"></i>
-                                            </span>
-                                            <span id="loginload" style="display:none">
-                                                <i class="fas fa-circle-notch fa-spin"></i>
-                                            </span>
-                                            &nbsp;
-                                            <span id="logintext">
-                                                Login
-                                            </span>
-                                        </button>
-                                       
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section id="wallet" class="hero is-fullheight" style="display:none;">
-            <br>
-            <div class="container box box-grey">
+        </div>
+    </section>
 
-                <div class="panel">
-                    <p class="panel-heading heading">
-                        <i class="fas fa-retweet"></i>
-                        Wrap Your DUCO
-                    </p>
+    <section id="wallet" class="hero is-fullheight" style="display:none;">
+        <br>
+        <div class="container box box-grey">
+
+            <div class="panel">
+                <p class="panel-heading heading">
+                    <i class="fas fa-retweet"></i>
+                    Wrap Your DUCO
+                </p>
 
                 <div class="columns is-multiline">
                     <div class="column is-full">
@@ -169,7 +176,7 @@
                                     <p class="subtitle is-size-6">
                                         <span id="balanceusd" style="white-space: nowrap"></span>
                                     </p>
-                                   
+
                                 </div>
                                 <div class="column">
                                     <canvas height="0em" id="balance_chart"></canvas>
@@ -177,7 +184,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div class="column is-half">
                         <div class="box">
@@ -186,18 +193,25 @@
                                 WRAP DUCO
                             </p>
                             <label class="label">Network token</label>
-                            <div class="control has-icons-left is-expanded">
-                                <input type="text" id="recipientinput" placeholder="bscDUCO/maticDUCO" class="input" required>
-                                <span class="icon is-small is-left">
-                                    <i class="fa fa-envelope"></i>
-                                    
-                                </span>
+                            <div class="control has-icons-left">
+                                <div class="select">
+                                    <select id="recipientinput">
+                                        <option selected>bscDUCO</option>
+                                        <option>maticDUCO</option>
+                                    </select>
+                                </div>
+                                <div class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
                             </div>
+
+
                             <div class="columns">
                                 <div class="column">
                                     <label class="label mt-2">Amount</label>
                                     <div class="control has-icons-left is-expanded">
-                                        <input type="number" id="amountinput" placeholder="15.8796" class="input" required>
+                                        <input type="number" id="amountinput" placeholder="15.8796" class="input"
+                                            required>
                                         <span class="icon is-small is-left">
                                             <i class="fa fa-coins"></i>
                                         </span>
@@ -208,7 +222,8 @@
                                         Address
                                     </label>
                                     <div class="control has-icons-left is-expanded">
-                                        <input type="test" id="memoinput" placeholder="0x............." class="input" required>
+                                        <input type="test" id="memoinput" placeholder="0x............." class="input"
+                                            required>
                                         <span class="icon is-small is-left">
                                             <i class="fa fa-user"></i>
                                         </span>
@@ -220,7 +235,7 @@
                                 Wrap
                             </button>
                             <span class="subtitle my-2 is-size-7" id="sendinginfo"></span>
-                        
+
                         </div>
                     </div>
 
@@ -230,9 +245,8 @@
                                 <i class="fa fa-list-ul is-size-7 card-pink fa-fw"></i>
                                 TRANSACTIONS
                                 <span class="subtitle is-size-6">
-                                (Adopt from duino) 
-                                    </span
-                            </p>
+                                    (Adopt from duino)
+                                </span </p>
                             <div id="transactions_table" class="columns is-multiline">
                                 <div class="column is-full">
                                     <p class="title is-size-6">
@@ -242,18 +256,39 @@
                             </div>
                         </div>
                     </div>
-                    
 
-                        </div>
-                    </div>
-                    
+
                 </div>
-                
-            <br>
-        </section>
+            </div>
+
+        </div>
+
+        <br>
+    </section>
     </div>
 
     <script src="ducoswapscript.js"></script>
+    <script>
+        let pageloader = document.getElementById("pageloader"); // PAGE LOAGER
+        pageloader.setAttribute('class', "pageloader is-active is-primary is-bottom-to-top"); // Before page is loaded
+        window.addEventListener('load', function () {
+            pageloader.setAttribute('class', "pageloader is-primary is-bottom-to-top"); // After page is loaded
+        });
+
+        document.addEventListener('DOMContentLoaded', () => { // HAMBURGER MENU
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => { // Add a click event on each of burger menus
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target; // Get the target from the "data-target" attribute
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active'); // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
